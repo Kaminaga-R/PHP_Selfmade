@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+section {
+  padding: 30px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+table {
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: #e9ecef;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+th {
+  text-align: left;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+td {
+  padding: 5px 20px 5px 5px;
+}
+
+td input,
+td select {
+  padding: 8px;
+  width: 400px;
+}
+
+dt {
+  padding: 10px 0;
+}
+
+dd input {
+  padding: 8px;
+  width: 400px;
+}

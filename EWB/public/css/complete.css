@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+    Meiryo, sans-serif;
+}
+
+section {
+  margin: 40px 0;
+  padding: 0 65px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+/* ===== フォーム ==== */
+#contact-box {
+  width: 70%;
+  margin: 5% auto;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  padding: auto;
+}
+
+.contact-header {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.need-validation {
+  padding: 20px 30px;
+  margin-bottom: 15px;
+}
+
+#toTop {
+  display: inline-block;
+  text-decoration: underline;
+  margin-top: 10px;
+}
